@@ -1,0 +1,6 @@
+<h2><%=recipe.name%></h2>
+<ul>
+    <% recipe.ingredients.all do |i| %>
+        <%= link_to i.name, ingredient_path(i) %>
+    <% end %>
+</ul>

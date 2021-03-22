@@ -1,0 +1,5 @@
+<%= render partial: 'ingredient', locals: {ingredient: @ingredient}%>
+<br>
+<%= link_to "Edit Ingredient", edit_ingredient_path(@ingredient) %>
+<br>
+<%= link_to "Back to all ingredients", ingredients_path %>

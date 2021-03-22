@@ -1,0 +1,5 @@
+<h1>Edit this ingredient</h1>
+<%= render partial: 'form', locals: {ingredient: @ingredient}%>
+<br>
+<%= link_to "Cancel", ingredient_path(@ingredient) %>
+<%= link_to "Back to all ingredients", ingredients_path%>
